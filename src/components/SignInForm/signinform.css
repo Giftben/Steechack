@@ -1,0 +1,54 @@
+.form{
+    color: #4f4f4f;
+    padding-right: 1rem;
+    width: 30vw;
+    margin-top: 3rem;
+}
+label{
+    display: block;
+    margin: 1rem 0;
+}
+
+.input-field {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 1em;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom:0.5px thin #525f67;
+  
+  
+}
+.input-field:focus{
+   outline:none;
+}
+.sign-in-btn{
+  width: 100%;
+  margin: 1rem 0;
+  height: 38px;
+  color: #fefefe;
+  background-color: #2b2b29;
+  border-radius: 6px;
+  border-style:outset;
+  transition: 0.5s ease-out;
+}
+.sign-in-btn:hover{
+  background-color: #000000;
+}
+.sign-in-btn:active{
+  background-color: #2d2d2d;
+}
+
+.inline{
+    display: inline;
+    
+}
+.float-right{
+    /* float: right; */
+    text-decoration: none;
+    color: #4f4f4f;
+    margin-left: 10rem;
+}
+
+

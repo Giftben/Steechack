@@ -1,0 +1,54 @@
+.Sign-in-container{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 0.5rem; */
+    margin: 1rem 7rem 1rem 3rem;
+    align-items: flex-start;
+    height: 450px;
+    max-width: 1800px;
+}
+.hero-text{
+   font-size: 20px;
+   padding: -1rem 2rem 2rem 0;
+}
+
+h4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+  
+h4:before,
+h4:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #000000;
+    margin: auto;
+    width: 10vw;
+}
+.social-media-container{
+    display: flex;
+    justify-content: center;
+}
+.social-media-icons{
+    background-color: #b2947b;
+    height: 30px;
+    width: 36px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    margin-top: 2.5rem ;
+    margin-bottom:2.5rem;
+}
+.social-media-icons img{
+    width: 20px;
+}
+
+.account-acknowledgement a{
+    text-decoration: none;
+    color: #b2947b;
+    padding: 2px;
+}
+.account-acknowledgement{
+    font-size: 18px;
+}

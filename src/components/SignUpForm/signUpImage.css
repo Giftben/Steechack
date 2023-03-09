@@ -1,0 +1,33 @@
+.signupimg-container{
+    position:relative;
+}
+.img-text{
+    position: absolute;
+    bottom: 1rem;
+    color: #fefefe;
+    left: 2rem;
+}
+.side-image-container{
+    width: 45vw;
+    margin-right: 1rem;
+}
+.side-image{
+    width: 100%;
+    height: 650px;   
+}
+
+.img-quote{
+    font-size:30px;
+    font-weight: 300;
+    /* padding-right: 0.5rem; */
+    margin-right: 2rem;
+}
+.img-quote-writer{
+    font-size: 22px;
+
+}
+.img-quote-writer-description{
+    font-size: 15px;
+    font-style: italic;
+    margin-top: -1rem;
+}
