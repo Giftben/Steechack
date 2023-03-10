@@ -1,5 +1,5 @@
 // import React, { useState } from 'react';
-import SignInImg from '../../components/SignInForm/signInImage.jsx'
+import SignInImg from '../../components/SignInForm/signinimage.jsx'
 import FacebookIcon from '../../assets/facebook-Vector.png'
 import InstagramIcon from '../../assets/instagram-vector.png'
 import GoogleIcon from '../../assets/google-vector.png'
