@@ -7,7 +7,7 @@ import React, { Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import {NavBar} from './components';
 import Landing from './pages/Landing/Landing';
-import {Footer} from './components';
+
 function App() {
   return (
     <div className="App">
