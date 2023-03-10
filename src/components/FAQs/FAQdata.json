@@ -1,0 +1,34 @@
+[
+  {
+    "index": 1,
+    "question": "What does this website do?",
+    "answer":
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quaerat perspiciatis molestias adipisci aspernatur, voluptas optio labore asperiores dolore nostrum."
+  },
+  {
+    "index": 2,
+    "question": "Is registration for free?",
+    "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quaerat perspiciatis molestias adipisci aspernatur, voluptas optio labore asperiores dolore nostrum."
+  },
+  {
+    "index": 3,
+    "question": "Can i store customer's measurement?",
+    "answer":
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quaerat perspiciatis molestias adipisci aspernatur, voluptas optio labore asperiores dolore nostrum."
+  },
+  {
+    "index": 4,
+    "question": "How do i create a new folder?",
+    "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quaerat perspiciatis molestias adipisci aspernatur, voluptas optio labore asperiores dolore nostrum."
+  },
+  {
+    "index": 5,
+    "question": "What security measures does Medfile have in place?",
+    "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quaerat perspiciatis molestias adipisci aspernatur, voluptas optio labore asperiores dolore nostrum."
+  },
+   {
+    "index": 6,
+    "question": "How do i contact support team?",
+    "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quaerat perspiciatis molestias adipisci aspernatur, voluptas optio labore asperiores dolore nostrum."
+  }
+]

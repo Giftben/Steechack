@@ -8,7 +8,7 @@ export default function Landing() {
             <About />
              <Quote />
             <HowItWorks />
-            {/* <FAQs /> */}
+            <FAQs />
             <Reviews />
             <Footer />
         </>

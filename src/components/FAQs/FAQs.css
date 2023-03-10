@@ -1,0 +1,20 @@
+.heading {
+    text-align: center;
+    margin: 5rem 0 4rem 0;
+    font-size: 2rem;
+  }
+  
+  .faqs-container {
+    background-color: #EDEDED;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: #252525;
+  }
+  
+  .faqs-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+  }
