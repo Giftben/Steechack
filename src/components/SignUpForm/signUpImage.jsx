@@ -1,6 +1,6 @@
-import Image from '../assets/sign-up-image.png'
 import React from 'react'
-import '../STYLE/signUpImage.css'
+import Image from '../../assets/sign-up-image.png'
+import './signUpImage.css'
 
 export default function SignUpImage() {
   return (

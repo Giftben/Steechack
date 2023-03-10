@@ -1,5 +1,5 @@
 import React from 'react'
-import '../STYLE/signinform.css'
+import './signinform.css'
 
 export default function () {
   return (

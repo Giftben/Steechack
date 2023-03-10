@@ -1,7 +1,7 @@
 import React from 'react'
-import Image from '../assets/signinImage.png'
-import '../STYLE/signUpImage.css'
-import '../STYLE/signInImage.css'
+import Image from '../../assets/signinImage.png'
+import '../SignUpForm/signUpImage.css'
+import './signInImage.css'
 
 export default function signInImage() {
   return (

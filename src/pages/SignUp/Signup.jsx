@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
-import SignUpImg from '../components/signUpImage.jsx'
-import FacebookIcon from '../assets/facebook-Vector.png'
-import InstagramIcon from '../assets/instagram-vector.png'
-import GoogleIcon from '../assets/google-vector.png'
-import SignUpForm from '../components/signupform.jsx'
+import SignUpImg from '../../components/SignUpForm/signUpImage.jsx'
+import FacebookIcon from '../../assets/facebook-Vector.png'
+import InstagramIcon from '../../assets/instagram-vector.png'
+import GoogleIcon from '../../assets/google-vector.png'
+import SignUpForm from '../../components/SignUpForm/signupform.jsx'
 import './signup.css'
 
   function SignUp(){
@@ -25,7 +25,7 @@ import './signup.css'
           <figure className='social-media-icons'><img src={GoogleIcon} alt='Google Icon'/> </figure>
           <figure className='social-media-icons'><img src={InstagramIcon} alt='Instagram Icon'/> </figure>
         </div>
-        <p className='account-acknowledgement'>Already have an account?  <a href=''> Sign in</a></p>
+        <p className='account-acknowledgement'>Already have an account?  <link to="/SignIn.jsx" > Sign in</link></p>
         </div> 
       </div>
         

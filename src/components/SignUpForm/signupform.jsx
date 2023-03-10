@@ -1,6 +1,5 @@
 import React from 'react'
-import { Form } from 'react-router-dom'
-import '../STYLE/signupform.css'
+import './signupform.css'
 function SignUpform() {
   return (
     <form className='form'>

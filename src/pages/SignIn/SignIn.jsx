@@ -1,9 +1,9 @@
 // import React, { useState } from 'react';
-import SignInImg from '../../components/signInImage.jsx';
+import SignInImg from '../../components/SignInForm/signInImage.jsx'
 import FacebookIcon from '../../assets/facebook-Vector.png'
 import InstagramIcon from '../../assets/instagram-vector.png'
 import GoogleIcon from '../../assets/google-vector.png'
-import SignInForm from '../../components/signinform.jsx'
+import SignInForm from '../../components/SignInForm/signinform.jsx'
 import './signin.css'
 
 function SignIn(){
