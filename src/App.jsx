@@ -10,7 +10,7 @@ function App() {
       <Signup/>
 
         <Routes>
-           <Route path="SignIn.jsx" element={<Signin/>}/>
+           <Route path="SignIn" element={<Signin/>}/>
         </Routes>
     </div>
   )
