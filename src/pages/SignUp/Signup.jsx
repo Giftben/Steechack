@@ -25,7 +25,7 @@ import './signup.css'
           <figure className='social-media-icons'><img src={GoogleIcon} alt='Google Icon'/> </figure>
           <figure className='social-media-icons'><img src={InstagramIcon} alt='Instagram Icon'/> </figure>
         </div>
-        <p className='account-acknowledgement'>Already have an account?  <link to="/SignIn.jsx" > Sign in</link></p>
+        <p className='account-acknowledgement'>Already have an account?  <a href="" > Sign in</a></p>
         </div> 
       </div>
         
