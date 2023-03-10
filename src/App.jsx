@@ -1,8 +1,6 @@
-// import { Routes, Route} from 'react-router-dom';
-
 import './index.css'
 import SignIn from './pages/SignIn/SignIn.jsx'
-import Signup from './pages/SignUp/signup.jsx'
+import Signup from './pages/SignUp/Signup.jsx'
 import React, { Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import {NavBar} from './components';
