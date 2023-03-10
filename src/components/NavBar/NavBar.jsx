@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -26,14 +27,13 @@ const NavBar = () => {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav className="justify-content-end flex-grow-1 pe-3 nav-list-items">
                   <Nav.Link className='link' href="/">Home</Nav.Link>
                   <Nav.Link className='link' href="#about">About Us</Nav.Link>
                   <Nav.Link className='link' href="#faqs">FAQs</Nav.Link>
                   <Nav.Link className='link' href="#contact">Contact Us</Nav.Link>
-                  <Nav.Link className='link' href="login">Log in</Nav.Link>
 
-                <button><Nav.Link className='link' href="register">Sign up</Nav.Link></button>
+                <Nav.Link className='link'>< Link to="/Signup" className="button">Sign up</Link></Nav.Link>
                 </Nav>
                 
               </Offcanvas.Body>

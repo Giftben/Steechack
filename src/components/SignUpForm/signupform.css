@@ -5,11 +5,11 @@
 }
 label{
     display: block;
-    margin: 1rem 0;
+    margin: 5px 0;
 }
 
 .input-field {
-  margin: 10px 0 0 0;
+  margin: 2px 0 0 0;
   width: 100%;
   min-height: 1em;
   border-left: none;

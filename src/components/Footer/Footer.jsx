@@ -1,6 +1,11 @@
 import { useState } from "react";
 import { logo } from "../../assets";
-import { TwitterIcon, FacebookIcon, InstagramIcon, LinkedinIcon, EmailIcon } from "../../assets/svg";
+// import { TwitterIcon, FacebookIcon, InstagramIcon, LinkedinIcon, EmailIcon } from "../../assets/svg";
+import TwitterIcon from "../../assets/svg/twitter.svg"
+import FacebookIcon from "../../assets/svg/facebook.svg"
+import InstagramIcon from "../../assets/svg/instagram.svg"
+import LinkedinIcon from "../../assets/svg/linkedin.svg"
+import EmailIcon from "../../assets/svg/email.svg"
 import "./Footer.css";
 
 export default function Footer() {
@@ -10,13 +15,13 @@ export default function Footer() {
             <div className="footer">
                 <div className="logo-wrap"> 
                     <img src={logo} alt="logo" />
-                    <div className="socials">
-                        <TwitterIcon />
-                        <InstagramIcon />
-                        <FacebookIcon />
-                        <LinkedinIcon />
-                        <EmailIcon />
                     </div>
+                    <div className="socials">
+                    <img src={TwitterIcon} alt="Twitter Icon" />
+                    <img src={InstagramIcon} alt="Instagram Icon" />
+                    <img src={FacebookIcon} alt="Facebook Icon" />
+                    <img src={LinkedinIcon} alt="LinkedIn Icon" />
+                    <img src={EmailIcon} alt="Email Icon" />
                 </div>
 
                 <div className="links">
