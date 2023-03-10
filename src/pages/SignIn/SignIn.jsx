@@ -1,4 +1,5 @@
 // import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
 import SignInImg from '../../components/SignInForm/signinimage.jsx'
 import FacebookIcon from '../../assets/facebook-Vector.png'
 import InstagramIcon from '../../assets/instagram-vector.png'
@@ -24,7 +25,7 @@ function SignIn(){
           <figure className='social-media-icons'><img src={GoogleIcon} alt='Google Icon'/> </figure>
           <figure className='social-media-icons'><img src={InstagramIcon} alt='Instagram Icon'/> </figure>
         </div>
-        <p className='account-acknowledgement'>Don't have an account yet? <a href=''>Sign in</a></p>
+        <p className='account-acknowledgement'>Don't have an account yet? <Link to='/Signup'>Sign Up</Link></p>
         </div> 
       </div>
         
