@@ -45,7 +45,7 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #home .text{
-        width: calc(100vw - 7em);
+        width: calc(100vw - 5em);
         margin: 2em;
         text-align: center;
     }
@@ -63,7 +63,7 @@
    }
    .brands img{
      width: 58px;
-     margin: 0 2px;
+     margin: 0 3px;
    }
    #home button{
     padding: 8px 50px;
