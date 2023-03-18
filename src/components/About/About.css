@@ -35,5 +35,9 @@
 @media only screen and (max-width: 768px) {
     #about{
         flex-direction: column;
+        padding: 3em;
+    }
+    #about img{
+        height: 250px;
     }
 }

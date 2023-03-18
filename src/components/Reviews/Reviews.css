@@ -80,8 +80,13 @@
     }
     .review{
         padding: 2px;
+        margin-bottom: 1rem;
     }
     .review p{
         line-height: 20px;
+    }
+    .reviews{
+        flex-direction: column;
+    
     }
 }

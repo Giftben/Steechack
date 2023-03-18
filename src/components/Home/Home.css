@@ -46,6 +46,7 @@
     /* For mobile phones: */
     #home .text{
         width: calc(100vw - 10em);
+        margin: 2em;
     }
    #home{
     flex-direction: column;
@@ -53,5 +54,10 @@
    #home .landing{
     width: 100vw;
     height: 400px;
+   }
+   #home h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
    }
   }
