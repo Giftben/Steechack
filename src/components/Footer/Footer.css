@@ -3,12 +3,14 @@ footer {
     flex-direction: column;
     background: #2B2B29;
     margin-top: 5em;
+
 }
 
 .footer {
     display: flex;
     justify-content: space-around;
     padding: 3em 0;
+    flex-wrap: wrap;
 }
 
 .footer a {
@@ -109,4 +111,10 @@ footer {
     align-items: center;
     text-align: center;
     color: #828282;
+}
+
+@media only screen and (max-width: 768px){
+    .message{
+        margin-top: 2rem;
+    }
 }

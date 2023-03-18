@@ -27,7 +27,13 @@
 #about a {
     font-size: 14px;
     line-height: 20px;
-   text-decoration-line: underline;
-color: #B18E72;
+    text-decoration-line: underline;
+    color: #B18E72;
 
+}
+
+@media only screen and (max-width: 768px) {
+    #about{
+        flex-direction: column;
+    }
 }

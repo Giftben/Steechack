@@ -45,10 +45,17 @@ label{
     
 }
 .float-right{
-    /* float: right; */
+    
     text-decoration: none;
     color: #4f4f4f;
     margin-left: 10rem;
 }
-
+@media only screen and (max-width: 768px){
+  label{
+    width: calc(100vw - 10rem);
+  }
+  .sign-in-btn{
+    margin: 2rem calc(50vw - 10rem);
+  }
+}
 
