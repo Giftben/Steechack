@@ -88,10 +88,11 @@
     }
     .reviews{
         flex-direction: column;
+        padding: 0 auto;
     }
     .scroll {
-        border-radius: 30px;
-        padding: 18px;
-        width: 228px;
+        border-radius: 28px;
+        padding: 14px;
+        width: 220px;
     }
 }
