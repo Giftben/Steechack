@@ -6,11 +6,12 @@ import FacebookIcon from "../../assets/svg/facebook.svg"
 import InstagramIcon from "../../assets/svg/instagram.svg"
 import LinkedinIcon from "../../assets/svg/linkedin.svg"
 import EmailIcon from "../../assets/svg/email.svg"
-import "./Footer.css";
+import "./SignUpFooter.css";
 
-export default function Footer() {
+export default function SignUpFooter() {
     const [email, setEmail] = useState("")
     return (
+        <section className="footer-container">
         <footer>
             <div className="footer">
                 <div>
@@ -28,18 +29,19 @@ export default function Footer() {
 
                 {/* <div className="links"> */}
                     <div>
-                        <h3>Who We Are</h3>
-                        <a href="#about">About us</a>
-                        <a href="#services">Our services</a>
-                        <a href="#home">Our Team</a>
-                        <a href="#home">Privacy Policy</a>
-                        <a href="#home">Terms of Service</a>
+                        <h3>My Account</h3>
+                        <a href="#">My Collectons</a>
+                        <a href="#">Wallet</a>
+                        <a href="#">Create New Collectons</a>
+                        
 
                     </div>
 
                     <div>
-                        <h3>Support</h3>
-                        <a href="#home">Get Started</a>
+                        <h3>Company</h3>
+                        <a href="#about">About us</a>
+                        <a href="#home">Privacy Policy</a>
+                        <a href="#home">Terms of Service</a>
                         <a href="#home">Help</a>
                         <a href="#faq">FAQ</a>
 
@@ -63,5 +65,6 @@ export default function Footer() {
             </div>
 
         </footer>
+        </section>
     )
 }

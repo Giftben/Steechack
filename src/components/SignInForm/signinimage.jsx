@@ -8,7 +8,6 @@ export default function signInImage() {
     <div className='signupimg-container'>
     <div className='side-image-container'>
    <img src={Image} alt="Side Image" className='side-image' />
-      <figure></figure>
     </div>
   <div className='img-text'>
    <p className='img-quote'>“My work comes to life when the thread goes

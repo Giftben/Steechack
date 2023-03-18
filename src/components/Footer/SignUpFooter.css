@@ -1,3 +1,7 @@
+.footer-container{
+    gap: 10rem;
+    margin-top: 16rem;
+}
 footer {
     display: flex;
     flex-direction: column;
@@ -7,7 +11,7 @@ footer {
 
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 3em 0;
 }
 
@@ -34,18 +38,18 @@ footer {
 .footer .socials {
     display: flex;
     margin: 1em 0;
-    /* gap: 10px; */
+    gap: 10px
 }
 
 .socials svg {
-    font-size: 2.5rem;
+    font-size: 20px;
 }
 
-/* .footer .links {
+.footer .links {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-} */
+}
 
 .message span {
     font-size: 20px;

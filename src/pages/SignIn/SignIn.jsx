@@ -6,9 +6,11 @@ import InstagramIcon from '../../assets/instagram-vector.png'
 import GoogleIcon from '../../assets/google-vector.png'
 import SignInForm from '../../components/SignInForm/signinform.jsx'
 import './signin.css'
+import SignInFooter from '../../components/Footer/SignInFooter.jsx'
 
 function SignIn(){
     return (
+      <>
       <div className='Sign-in-container'>
        <div >
           <SignInImg/>
@@ -28,6 +30,8 @@ function SignIn(){
         <p className='account-acknowledgement'>Don't have an account yet? <Link to='/Signup'>Sign Up</Link></p>
         </div> 
       </div>
+      <SignInFooter/>
+      </>
         
 
     )

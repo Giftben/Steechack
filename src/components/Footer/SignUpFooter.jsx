@@ -6,11 +6,12 @@ import FacebookIcon from "../../assets/svg/facebook.svg"
 import InstagramIcon from "../../assets/svg/instagram.svg"
 import LinkedinIcon from "../../assets/svg/linkedin.svg"
 import EmailIcon from "../../assets/svg/email.svg"
-import "./Footer.css";
+import "./SignUpFooter.css";
 
-export default function Footer() {
+export default function SignUpFooter() {
     const [email, setEmail] = useState("")
     return (
+        <section className="footer-container">
         <footer>
             <div className="footer">
                 <div>
@@ -63,5 +64,6 @@ export default function Footer() {
             </div>
 
         </footer>
+        </section>
     )
 }

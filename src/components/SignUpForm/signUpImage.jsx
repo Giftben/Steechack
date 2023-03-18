@@ -7,7 +7,6 @@ export default function SignUpImage() {
     <div className='signupimg-container'>
         <div className='side-image-container'>
        <img src={Image} alt="Side Image" className='side-image' />
-          <figure></figure>
         </div>
       <div className='img-text'>
        <p className='img-quote'>“Dress shabbily and they remember the dress;

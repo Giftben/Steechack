@@ -6,10 +6,11 @@ import InstagramIcon from '../../assets/instagram-vector.png'
 import GoogleIcon from '../../assets/google-vector.png'
 import SignUpForm from '../../components/SignUpForm/signupform.jsx'
 import './signup.css'
-import Footer from '../../components/Footer/Footer.jsx';
+import SignUpFooter from '../../components/Footer/SignUpFooter.jsx'
 
   function SignUp(){
     return (
+      <>
       <div className='Sign-up-container'>
        <div >
           <SignUpImg/>
@@ -29,6 +30,8 @@ import Footer from '../../components/Footer/Footer.jsx';
         <p className='account-acknowledgement'>Already have an account?  <Link to="/SignIn" > Sign in</Link></p>
         </div> 
       </div>
+        <SignUpFooter/>
+      </>
     
     )
   }
