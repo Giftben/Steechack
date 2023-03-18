@@ -47,6 +47,7 @@
     #home .text{
         width: calc(100vw - 7em);
         margin: 2em;
+        text-align: center;
     }
    #home{
     flex-direction: column;

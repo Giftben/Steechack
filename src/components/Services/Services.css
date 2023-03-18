@@ -24,7 +24,7 @@ padding: 1em 0;
     width: 200px;
 }
 
-.service svg {}
+/* .service svg {} */
 
 .service h4 {
     font-weight: 600;
@@ -40,4 +40,10 @@ padding: 1em 0;
     line-height: 25px;
     text-align: center;
     color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px){
+    .service{
+        margin-bottom: 1rem;
+    }
 }
