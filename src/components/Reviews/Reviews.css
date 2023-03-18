@@ -81,13 +81,17 @@
     .review{
         padding: 2px;
         margin-bottom: 1rem;
-        width: 200px;
+        width: 220px;
     }
     .review p{
         line-height: 20px;
     }
     .reviews{
         flex-direction: column;
-    
+    }
+    .scroll {
+        border-radius: 30px;
+        padding: 18px;
+        width: 228px;
     }
 }
