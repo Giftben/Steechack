@@ -13,9 +13,9 @@ export default function SignUpFooter() {
     return (
         <section className="footer-container">
         <footer>
-            <div className="footer">
-                <div>
-                <div className="logo-wrap"> 
+            <div className="footer sign-in-footer-container">
+                <div className="sign-in-footer">
+                <div className="logo-wrap "> 
                     <img src={logo} alt="logo" />
                     </div>
                     <div className="socials">
@@ -28,7 +28,7 @@ export default function SignUpFooter() {
                 </div>
 
                 {/* <div className="links"> */}
-                    <div>
+                    <div className="sign-in-footer">
                         <h3>My Account</h3>
                         <a href="#">My Collectons</a>
                         <a href="#">Wallet</a>
@@ -37,7 +37,7 @@ export default function SignUpFooter() {
 
                     </div>
 
-                    <div>
+                    <div className="sign-in-footer">
                         <h3>Company</h3>
                         <a href="#about">About us</a>
                         <a href="#home">Privacy Policy</a>

@@ -54,8 +54,6 @@ h4:after {
 
 @media only screen and (max-width: 768px) {
     .Sign-up-container{
-        display: flex;
-        justify-content: space-between;
         width: calc(100vw - 3rem);
         margin: 1.5rem;
     }

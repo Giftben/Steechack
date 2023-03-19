@@ -119,4 +119,7 @@ footer {
     .footer-container{
         margin-top: 22rem;
     }
+    .sign-in-footer{
+        flex-shrink: calc(90vw / 3);
+    }
 }

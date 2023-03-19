@@ -13,7 +13,7 @@ export default function () {
           <input id='password' type="password" name="password"  className='input-field' required />
         </label>
         <div class="wrapper">
-             <label for="remember-me" className='inline float-left'><input id="remember-me" type="checkbox" name="remember-me" class="inline" value="remember-me" /> Remember Me</label>
+             <label for="remember-me" className='inline float-left'><input id="remember-me" type="checkbox" name="remember-me" value="remember-me" /> Remember Me</label>
               <a href="#" className='inline float-right'>Forgot Password</a>
               </div>
           <div>

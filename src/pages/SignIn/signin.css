@@ -56,4 +56,12 @@ h4:after {
     .hero-container{
         width: calc(100vw-2rem);
     }
+    .Sign-in-container{
+        width: calc(100vw - 3rem);
+        margin: 1.5rem;
+    }
+    h4:before,
+    h4:after{
+        width: 15vw;
+    }
 }

@@ -17,7 +17,7 @@ label{
   border-right: none;
   border-top: none;
   border-bottom:0.5px thin #525f67;
-  
+
   
 }
 .input-field:focus{
@@ -42,7 +42,7 @@ label{
 
 .inline{
     display: inline;
-    
+   margin: 1rem auto; 
 }
 .float-right{
     
@@ -52,10 +52,17 @@ label{
 }
 @media only screen and (max-width: 768px){
   label{
-    width: calc(100vw - 10rem);
+    width: calc(100vw - 4rem);
   }
   .sign-in-btn{
-    margin: 2rem calc(50vw - 10rem);
+    margin: 1.5rem calc(50vw - 4rem);
+  }
+  .inline{
+    display: flex;
+  }
+  .float-right{
+    margin-left: 0;
+    
   }
 }
 
